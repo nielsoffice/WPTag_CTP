@@ -59,10 +59,20 @@ if ( ! function_exists( 'ns_register_team_category' ) ) {
 
 ```
 
+```PHP
+// Fetch and Loop
+$tags = get_terms([
+          'taxonomy'  => 'YOUR_CUSTOM_TAXONOMY',
+          'hide_empty'    => false
+        ]);
+var_dump($tags);
+
+```
 Reference: <br />
 
 <a href="https://nielsoffice197227997.wordpress.com/2021/09/06/tag-box-for-specific-custom-post-type-wordpress/">Tag box for specific custom post type – WordPress</a><br />
 <a href="https://wordpress.stackexchange.com/questions/62260/how-to-add-tags-to-custom-post-type">Nuno Sarmento</a><br />
 <a href="https://www.sanwebe.com/snippet/create-custom-tags-for-custom-post-types-wordpress">Create Custom Tags for Custom Post Types (WordPress)</a><br />
+<a href="https://stackoverflow.com/questions/29230243/wordpress-get-all-tags-from-custom-post-type">Mahafuz : Fetch and loop Tags for Custom Post Types (WordPress)</a><br />
 
 
