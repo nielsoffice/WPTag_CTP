@@ -45,7 +45,7 @@ if ( ! function_exists( 'ns_register_team_category' ) ) {
 	
 	register_taxonomy( 
   
-   'tag',  // tag_name
+   'tag',  // tag_name | base on CPT < 'taxonomies' => array( 'blog', 'category', 'tag'), >
    array( 'blog' ), // CPT
    
    $args );
