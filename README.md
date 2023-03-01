@@ -71,7 +71,7 @@ var_dump($tags);
 
 ```PHP
   // Base on post ID or Object ID
-  $tags = wp_get_post_terms(get_the_ID(), 'post_tag' );
+  $tags = wp_get_post_terms(get_the_ID(), 'YOUR_CUSTOM_TAXONOMY' ); // default < 'post_tag' >
 
   var_dump( $tags );		
 
